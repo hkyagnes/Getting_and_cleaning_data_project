@@ -90,12 +90,13 @@ R object ‘Final’(data frame)
 
 ##Description of the variables in the tidy_data.txt file
 
-- Dimensions of the dataset: 180 observations of 88 variables
+Dimensions of the dataset: 180 observations of 88 variables
 
- - Variables present in the dataset(int~ integer, chr~ Character, num~ numeric) 
-1	subject	int
+Variables present in the dataset(int~ integer, chr~ Character, num~ numeric) 
+ 
+1	subject	[int] value:	1 to 30
 
-2	activities	chr
+2	activities	[chr]	laying, standing, sitting, walking, walking_upstairs, walking_downstairs
 
 3	timebodyaccmeanx	num
 
