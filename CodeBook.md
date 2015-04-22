@@ -92,183 +92,185 @@ R object ‘Final’(data frame)
 
 Dimensions of the dataset: 180 observations of 88 variables
 
-Variables present in the dataset(int~ integer, chr~ Character, num~ numeric) 
+Variables present in the dataset(int~ integer, chr~ Character) 
  
 1	subject	[int] value:	1 to 30
 
 2	activities	[chr]	laying, standing, sitting, walking, walking_upstairs, walking_downstairs
 
-3	timebodyaccmeanx	num
+From column 3 to 88, are numeric
 
-4	timebodyaccmeany	num
+3	timebodyaccmeanx
 
-5	timebodyaccmeanz	num
+4	timebodyaccmeany
 
-6	timebodyaccstdx	num
+5	timebodyaccmeanz
 
-7	timebodyaccstdy	num
+6	timebodyaccstdx
 
-8	timebodyaccstdz	num
+7	timebodyaccstdy
 
-9	timegravityaccmeanx	num
+8	timebodyaccstdz
 
-10	timegravityaccmeany	num
+9	timegravityaccmeanx
 
-11	timegravityaccmeanz	num
+10	timegravityaccmeany
 
-12	timegravityaccstdx	num
+11	timegravityaccmeanz
 
-13	timegravityaccstdy	num
+12	timegravityaccstdx
 
-14	timegravityaccstdz	num
+13	timegravityaccstdy
 
-15	timebodyaccjerkmeanx	num
+14	timegravityaccstdz
 
-16	timebodyaccjerkmeany	num
+15	timebodyaccjerkmeanx
 
-17	timebodyaccjerkmeanz	num
+16	timebodyaccjerkmeany
 
-18	timebodyaccjerkstdx	num
+17	timebodyaccjerkmeanz
 
-19	timebodyaccjerkstdy	num
+18	timebodyaccjerkstdx
 
-20	timebodyaccjerkstdz	num
+19	timebodyaccjerkstdy
 
-21	timebodygyromeanx	num
+20	timebodyaccjerkstdz
 
-22	timebodygyromeany	num
+21	timebodygyromeanx
 
-23	timebodygyromeanz	num
+22	timebodygyromeany
 
-24	timebodygyrostdx	num
+23	timebodygyromeanz
 
-25	timebodygyrostdy	num
+24	timebodygyrostdx
 
-26	timebodygyrostdz	num
+25	timebodygyrostdy
 
-27	timebodygyrojerkmeanx	num
+26	timebodygyrostdz
 
-28	timebodygyrojerkmeany	num
+27	timebodygyrojerkmeanx
 
-29	timebodygyrojerkmeanz	num
+28	timebodygyrojerkmeany
 
-30	timebodygyrojerkstdx	num
+29	timebodygyrojerkmeanz
 
-31	timebodygyrojerkstdy	num
+30	timebodygyrojerkstdx
 
-32	timebodygyrojerkstdz	num
+31	timebodygyrojerkstdy
 
-33	timebodyaccmagmean	num
+32	timebodygyrojerkstdz
 
-34	timebodyaccmagstd	num
+33	timebodyaccmagmean
 
-35	timegravityaccmagmean	num
+34	timebodyaccmagstd
 
-36	timegravityaccmagstd	num
+35	timegravityaccmagmean
 
-37	timebodyaccjerkmagmean	num
+36	timegravityaccmagstd
 
-38	timebodyaccjerkmagstd	num
+37	timebodyaccjerkmagmean
 
-39	timebodygyromagmean	num
+38	timebodyaccjerkmagstd
 
-40	timebodygyromagstd	num
+39	timebodygyromagmean
 
-41	timebodygyrojerkmagmean	num
+40	timebodygyromagstd
 
-42	timebodygyrojerkmagstd	num
+41	timebodygyrojerkmagmean
 
-43	freqbodyaccmeanx	num
+42	timebodygyrojerkmagstd
 
-44	freqbodyaccmeany	num
+43	freqbodyaccmeanx
 
-45	freqbodyaccmeanz	num
+44	freqbodyaccmeany
 
-46	freqbodyaccstdx	num
+45	freqbodyaccmeanz
 
-47	freqbodyaccstdy	num
+46	freqbodyaccstdx
 
-48	freqbodyaccstdz	num
+47	freqbodyaccstdy
 
-49	freqbodyaccmeanfreqx	num
+48	freqbodyaccstdz
 
-50	freqbodyaccmeanfreqy	num
+49	freqbodyaccmeanfreqx
 
-51	freqbodyaccmeanfreqz	num
+50	freqbodyaccmeanfreqy
 
-52	freqbodyaccjerkmeanx	num
+51	freqbodyaccmeanfreqz
 
-53	freqbodyaccjerkmeany	num
+52	freqbodyaccjerkmeanx
 
-54	freqbodyaccjerkmeanz	num
+53	freqbodyaccjerkmeany
 
-55	freqbodyaccjerkstdx	num
+54	freqbodyaccjerkmeanz
 
-56	freqbodyaccjerkstdy	num
+55	freqbodyaccjerkstdx
 
-57	freqbodyaccjerkstdz	num
+56	freqbodyaccjerkstdy
 
-58	freqbodyaccjerkmeanfreqx	num
+57	freqbodyaccjerkstdz
 
-59	freqbodyaccjerkmeanfreqy	num
+58	freqbodyaccjerkmeanfreqx
 
-60	freqbodyaccjerkmeanfreqz	num
+59	freqbodyaccjerkmeanfreqy
 
-61	freqbodygyromeanx	num
+60	freqbodyaccjerkmeanfreqz
 
-62	freqbodygyromeany	num
+61	freqbodygyromeanx
 
-63	freqbodygyromeanz	num
+62	freqbodygyromeany
 
-64	freqbodygyrostdx	num
+63	freqbodygyromeanz
 
-65	freqbodygyrostdy	num
+64	freqbodygyrostdx
 
-66	freqbodygyrostdz	num
+65	freqbodygyrostdy
 
-67	freqbodygyromeanfreqx	num
+66	freqbodygyrostdz
 
-68	freqbodygyromeanfreqy	num
+67	freqbodygyromeanfreqx
 
-69	freqbodygyromeanfreqz	num
+68	freqbodygyromeanfreqy
 
-70	freqbodyaccmagmean	num
+69	freqbodygyromeanfreqz
 
-71	freqbodyaccmagstd	num
+70	freqbodyaccmagmean
 
-72	freqbodyaccmagmeanfreq	num
+71	freqbodyaccmagstd
 
-73	freqbodybodyaccjerkmagmean	num
+72	freqbodyaccmagmeanfreq
 
-74	freqbodybodyaccjerkmagstd	num
+73	freqbodybodyaccjerkmagmean
 
-75	freqbodybodyaccjerkmagmeanfreq	num
+74	freqbodybodyaccjerkmagstd
 
-76	freqbodybodygyromagmean	num
+75	freqbodybodyaccjerkmagmeanfreq
 
-77	freqbodybodygyromagstd	num
+76	freqbodybodygyromagmean
 
-78	freqbodybodygyromagmeanfreq	num
+77	freqbodybodygyromagstd
 
-79	freqbodybodygyrojerkmagmean	num
+78	freqbodybodygyromagmeanfreq
 
-80	freqbodybodygyrojerkmagstd	num
+79	freqbodybodygyrojerkmagmean
 
-81	freqbodybodygyrojerkmagmeanfreq	num
+80	freqbodybodygyrojerkmagstd
 
-82	angletbodyaccmeangravity	num
+81	freqbodybodygyrojerkmagmeanfreq
 
-83	angletbodyaccjerkmeangravitymean	num
+82	angletbodyaccmeangravity
 
-84	angletbodygyromeangravitymean	num
+83	angletbodyaccjerkmeangravitymean
 
-85	angletbodygyrojerkmeangravitymean	num
+84	angletbodygyromeangravitymean
 
-86	anglexgravitymean	num
+85	angletbodygyrojerkmeangravitymean
 
-87	angleygravitymean	num
+86	anglexgravitymean
 
-88	anglezgravitymean	num
+87	angleygravitymean
+
+88	anglezgravitymean
 
 For more details information about the measurements, please refer to the ‘README.txt’ and ‘feature_info.txt’ provided in the 
 original zip file.
