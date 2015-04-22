@@ -91,8 +91,12 @@ R object ‘Final’(data frame)
 ##Description of the variables in the tidy_data.txt file
 
 ####Dimensions of the dataset: 180 observations of 88 variables
+
 30 subjects, each has 6 activities (ie 30*6 = 180 individual observations/rows)
-86 variable of measurements with mean or SD in the original dataset are subsetted, subject (ID) and activities are stored in two sperate columns, so in total, there are 88 columns.
+
+86 variable of measurements with mean or SD in the original dataset are subsetted, subject (ID) and activities are stored 
+in two sperate columns, so in total, there are 88 columns.
+
 each observation is one row, and each measurement is one column, therefore fulfiled the tidy data requirement
 
 ####Variables present in the dataset
