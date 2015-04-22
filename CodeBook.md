@@ -1,8 +1,8 @@
 Title: Codebook for “Getting and cleaning data” course project
 
-author: Ka Yi HUI
+Author: Ka Yi HUI
 
-date:22 April, 2015 
+Date:22 April, 2015 
 
 ## Introduction
 The purpose of this project is using the skills taught in the course (collect, work with, and clean a data set) to prepare tidy 
@@ -89,95 +89,184 @@ R object ‘Final’(data frame)
 9. The result is saved in a txt file with name, ‘tidy_data.txt’
 
 ##Description of the variables in the tidy_data.txt file
+
 - Dimensions of the dataset: 180 observations of 88 variables
- - Variables present in the dataset
+
+ - Variables present in the dataset(int~ integer, chr~ Character, num~ numeric) 
 1	subject	int
+
 2	activities	chr
+
 3	timebodyaccmeanx	num
+
 4	timebodyaccmeany	num
+
 5	timebodyaccmeanz	num
+
 6	timebodyaccstdx	num
+
 7	timebodyaccstdy	num
+
 8	timebodyaccstdz	num
+
 9	timegravityaccmeanx	num
+
 10	timegravityaccmeany	num
+
 11	timegravityaccmeanz	num
+
 12	timegravityaccstdx	num
+
 13	timegravityaccstdy	num
+
 14	timegravityaccstdz	num
+
 15	timebodyaccjerkmeanx	num
+
 16	timebodyaccjerkmeany	num
+
 17	timebodyaccjerkmeanz	num
+
 18	timebodyaccjerkstdx	num
+
 19	timebodyaccjerkstdy	num
+
 20	timebodyaccjerkstdz	num
+
 21	timebodygyromeanx	num
+
 22	timebodygyromeany	num
+
 23	timebodygyromeanz	num
+
 24	timebodygyrostdx	num
+
 25	timebodygyrostdy	num
+
 26	timebodygyrostdz	num
+
 27	timebodygyrojerkmeanx	num
+
 28	timebodygyrojerkmeany	num
+
 29	timebodygyrojerkmeanz	num
+
 30	timebodygyrojerkstdx	num
+
 31	timebodygyrojerkstdy	num
+
 32	timebodygyrojerkstdz	num
+
 33	timebodyaccmagmean	num
+
 34	timebodyaccmagstd	num
+
 35	timegravityaccmagmean	num
+
 36	timegravityaccmagstd	num
+
 37	timebodyaccjerkmagmean	num
+
 38	timebodyaccjerkmagstd	num
+
 39	timebodygyromagmean	num
+
 40	timebodygyromagstd	num
+
 41	timebodygyrojerkmagmean	num
+
 42	timebodygyrojerkmagstd	num
+
 43	freqbodyaccmeanx	num
+
 44	freqbodyaccmeany	num
+
 45	freqbodyaccmeanz	num
+
 46	freqbodyaccstdx	num
+
 47	freqbodyaccstdy	num
+
 48	freqbodyaccstdz	num
+
 49	freqbodyaccmeanfreqx	num
+
 50	freqbodyaccmeanfreqy	num
+
 51	freqbodyaccmeanfreqz	num
+
 52	freqbodyaccjerkmeanx	num
+
 53	freqbodyaccjerkmeany	num
+
 54	freqbodyaccjerkmeanz	num
+
 55	freqbodyaccjerkstdx	num
+
 56	freqbodyaccjerkstdy	num
+
 57	freqbodyaccjerkstdz	num
+
 58	freqbodyaccjerkmeanfreqx	num
+
 59	freqbodyaccjerkmeanfreqy	num
+
 60	freqbodyaccjerkmeanfreqz	num
+
 61	freqbodygyromeanx	num
+
 62	freqbodygyromeany	num
+
 63	freqbodygyromeanz	num
+
 64	freqbodygyrostdx	num
+
 65	freqbodygyrostdy	num
+
 66	freqbodygyrostdz	num
+
 67	freqbodygyromeanfreqx	num
+
 68	freqbodygyromeanfreqy	num
+
 69	freqbodygyromeanfreqz	num
+
 70	freqbodyaccmagmean	num
+
 71	freqbodyaccmagstd	num
+
 72	freqbodyaccmagmeanfreq	num
+
 73	freqbodybodyaccjerkmagmean	num
+
 74	freqbodybodyaccjerkmagstd	num
+
 75	freqbodybodyaccjerkmagmeanfreq	num
+
 76	freqbodybodygyromagmean	num
+
 77	freqbodybodygyromagstd	num
+
 78	freqbodybodygyromagmeanfreq	num
+
 79	freqbodybodygyrojerkmagmean	num
+
 80	freqbodybodygyrojerkmagstd	num
+
 81	freqbodybodygyrojerkmagmeanfreq	num
+
 82	angletbodyaccmeangravity	num
+
 83	angletbodyaccjerkmeangravitymean	num
+
 84	angletbodygyromeangravitymean	num
+
 85	angletbodygyrojerkmeangravitymean	num
+
 86	anglexgravitymean	num
+
 87	angleygravitymean	num
+
 88	anglezgravitymean	num
 
 For more details information about the measurements, please refer to the ‘README.txt’ and ‘feature_info.txt’ provided in the 
