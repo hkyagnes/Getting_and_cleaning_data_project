@@ -1,11 +1,9 @@
 Title: Codebook for “Getting and cleaning data” course project
+
 author: Ka Yi HUI
+
 date:22 April, 2015 
-output:
-  html_document:
-    keep_md: yes
----
- 
+
 ## Introduction
 The purpose of this project is using the skills taught in the course (collect, work with, and clean a data set) to prepare tidy 
 data that can be used for later analysis. “Human activity recognition using smartphone dataset” from Smartlab - Non Linear 
