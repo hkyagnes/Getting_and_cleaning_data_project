@@ -279,7 +279,7 @@ From column 3 to 88, are normalize measurement value from the smart phone. data 
 
 88	anglezgravitymean
 
-#####notes on measurements
+#####Notes on measurements
 The following information is provided by the "feature_info.txt" in the original Zip file.
 
 "The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
@@ -373,7 +373,18 @@ tBodyGyroMean
 
 tBodyGyroJerkMean"
 
-#####Modification on the variable
+#####Modifications on the variable names
 't' is changed to 'time' and 'f' is changed to 'freq' in variable the tidy dataset, in addition the variable names are modified to meet the requirement of 'tidy dataset'(no "()", "-", "/" and all letters changed to lowercase)
 
 Only the measurement with mean and standard deviation(std) are subsetted, eg. "timebodyaccmeanx" and "timebodyaccstdx", therefore 86 out of 561 variables are subsetted into the tidy dataset.
+
+####License:
+
+========
+Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
+
+Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
