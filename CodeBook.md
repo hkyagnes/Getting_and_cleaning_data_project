@@ -290,51 +290,90 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
 tBodyAcc-XYZ
+
 tGravityAcc-XYZ
+
 tBodyAccJerk-XYZ
+
 tBodyGyro-XYZ
+
 tBodyGyroJerk-XYZ
+
 tBodyAccMag
+
 tGravityAccMag
+
 tBodyAccJerkMag
+
 tBodyGyroMag
+
 tBodyGyroJerkMag
+
 fBodyAcc-XYZ
+
 fBodyAccJerk-XYZ
+
 fBodyGyro-XYZ
+
 fBodyAccMag
+
 fBodyAccJerkMag
+
 fBodyGyroMag
+
 fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
 mean(): Mean value
+
 std(): Standard deviation
+
 mad(): Median absolute deviation 
+
 max(): Largest value in array
+
 min(): Smallest value in array
+
 sma(): Signal magnitude area
+
 energy(): Energy measure. Sum of the squares divided by the number of values. 
+
 iqr(): Interquartile range 
+
 entropy(): Signal entropy
+
 arCoeff(): Autorregresion coefficients with Burg order equal to 4
+
 correlation(): correlation coefficient between two signals
+
 maxInds(): index of the frequency component with largest magnitude
+
 meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+
 skewness(): skewness of the frequency domain signal 
+
 kurtosis(): kurtosis of the frequency domain signal 
+
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+
 angle(): Angle between to vectors.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
 gravityMean
+
 tBodyAccMean
+
 tBodyAccJerkMean
+
 tBodyGyroMean
+
 tBodyGyroJerkMean"
 
-Modification: 't' is changed to 'time' and 'f' is changed to 'freq' in the tidy dataset.
-and only the measurement with mean and standard deviation(std) are subsetted, eg. "timebodyaccmeanx" and "timebodyaccstdx"
+#####Modification on the variable
+'t' is changed to 'time' and 'f' is changed to 'freq' in variable the tidy dataset, in addition the variable names are modified to meet the requirement of 'tidy dataset'(no "()", "-", "/" and all letters changed to lowercase)
+
+Only the measurement with mean and standard deviation(std) are subsetted, eg. "timebodyaccmeanx" and "timebodyaccstdx", therefore 86 out of 561 variables are subsetted into the tidy dataset.
